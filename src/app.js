@@ -26,13 +26,28 @@ var appRoot = document.getElementById("app");
 let color = 'red';
 
 
+class Test extends React.Component{
+
+render(){
+
+    return (
+        <p>
+           <h1>My first react component</h1>
+        </p>
+    );
+
+}
+
+}
+
+
 
 const render = ()=>{
 
     var templateTwo = (
        <div>
        <h1>Hellow World</h1>
-
+     <Test />
        <ul>
        <li>user name: {user.name}</li>
        <li>user location: {user.location}</li>
